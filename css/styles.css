@@ -1,0 +1,31 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust styles for mobile */
+}
+
+/* Dark/Light Theme */
+:root {
+    --primary-color: #007bff;
+    --background-color: #ffffff;
+    --text-color: #333333;
+}
+
+[data-theme="dark"] {
+    --primary-color: #007bff;
+    --background-color: #333333;
+    --text-color: #ffffff;
+}
